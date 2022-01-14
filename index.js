@@ -93,7 +93,7 @@ var unifiedServer = (req, res) => {
       res.end(paylaodString);
 
       // Log the request path
-      console.log(
+      console.trace(
         "Returning response with statusCode : " +
           statusCode +
           " and payload " +
